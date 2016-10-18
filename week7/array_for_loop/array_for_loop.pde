@@ -10,8 +10,8 @@ void setup() {
 
   //initializing the array with for loop and random numbers
   for (int i=0; i<100; i++) {
-    pointX[i]= int (random(0, 500));
-    pointY[i]= int (random(0, 500));
+    pointX[i]= int (random(width));
+    pointY[i]= int (random(height));
   }
 }
 
